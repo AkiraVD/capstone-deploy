@@ -1,0 +1,26 @@
+.navbar-brand {
+  font-size: 26px;
+  font-weight: 700;
+  color: #dc4f72;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 14px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #2c3038;
+}
+
+.navbar-expand-lg .btn {
+  line-height: 52px;
+  padding: 0 30px;
+  font-size: 14px;
+  color: #dc4f72;
+  text-transform: uppercase;
+  border-color: #dc4f72;
+  margin-left: 30px;
+  transition: 0.3s;
+}
+.navbar-expand-lg .btn:hover {
+  background-color: #dc4f72;
+  color: white;
+}
