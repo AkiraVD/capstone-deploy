@@ -3,10 +3,13 @@
   font-weight: 700;
   color: #dc4f72;
 }
+.navbar-brand i {
+  margin-right: 5px;
+}
 .navbar-expand-lg .navbar-nav .nav-link {
   padding: 14px;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
   color: #2c3038;
 }
 
