@@ -1,3 +1,9 @@
+#header {
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+}
+.navbar {
+  padding: 20px 0;
+}
 .navbar-brand {
   font-size: 26px;
   font-weight: 700;
@@ -6,11 +12,59 @@
 .navbar-brand i {
   margin-right: 5px;
 }
+.navbar-brand:hover {
+  color: #dc4f72;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item,
 .navbar-expand-lg .navbar-nav .nav-link {
-  padding: 14px;
   font-size: 16px;
   font-weight: 300;
   color: #2c3038;
+  position: relative;
+}
+.navbar-expand-lg .navbar-nav .nav-link::before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 0px;
+  left: 15px;
+  bottom: 10px;
+  background-color: #dc4f72;
+  transition: 0.5s;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover::before {
+  width: 25px;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  color: #dc4f72;
+  background-color: transparent;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 14px;
+}
+.navbar-expand-lg .navbar-nav .active .nav-link {
+  color: #dc4f72;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item {
+  padding-top: 0;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  transform: translateX(-25%);
+  padding: 20px 0 10px 10px;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu::before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  left: 50%;
+  top: -6px;
+  transform: translateX(-5px) rotate(45deg);
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-right: none;
+  border-bottom: none;
 }
 
 .navbar-expand-lg .btn {
@@ -26,4 +80,19 @@
 .navbar-expand-lg .btn:hover {
   background-color: #dc4f72;
   color: white;
+}
+.btn-outline-primary:not(:disabled):not(.disabled).active,
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.show > .btn-outline-primary.dropdown-toggle {
+  background-color: #dc4f72;
+  border-color: #dc4f72;
+  opacity: 0.6;
+}
+.btn-outline-primary.focus,
+.btn-outline-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(220, 79, 114, 0.5);
+}
+.navbar.compressed {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
