@@ -1,5 +1,6 @@
 #header {
   box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+  background-color: white;
 }
 .navbar {
   padding: 20px 0;
@@ -66,31 +67,8 @@
   border-right: none;
   border-bottom: none;
 }
-
-.navbar-expand-lg .btn {
-  line-height: 52px;
-  padding: 0 30px;
-  font-size: 14px;
-  color: #dc4f72;
-  text-transform: uppercase;
-  border-color: #dc4f72;
+#header .btn {
   margin-left: 30px;
-  transition: 0.3s;
-}
-.navbar-expand-lg .btn:hover {
-  background-color: #dc4f72;
-  color: white;
-}
-.btn-outline-primary:not(:disabled):not(.disabled).active,
-.btn-outline-primary:not(:disabled):not(.disabled):active,
-.show > .btn-outline-primary.dropdown-toggle {
-  background-color: #dc4f72;
-  border-color: #dc4f72;
-  opacity: 0.6;
-}
-.btn-outline-primary.focus,
-.btn-outline-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(220, 79, 114, 0.5);
 }
 .navbar.compressed {
   padding-top: 10px;

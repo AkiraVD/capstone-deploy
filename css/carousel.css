@@ -1,0 +1,38 @@
+#carousel {
+  padding: 80px 0 0 0;
+  background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0.92)),
+    url(../image/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.carousel__container {
+  display: flex;
+}
+.left_carousel {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+.left_carousel h2 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  color: #2c3038;
+}
+
+.left_carousel p {
+  color: #5a5a5a;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 28px;
+  max-width: 450px;
+  margin: 16px 0 48px 0;
+}
+.right_carousel img {
+  transform: rotate(180deg);
+}

@@ -9,5 +9,32 @@ img {
   display: block;
 }
 body {
+  padding-top: 80px;
   height: 5000px;
+}
+
+/* button style */
+.btn.clear_button {
+  line-height: 52px;
+  padding: 0 30px;
+  font-size: 14px;
+  color: #dc4f72;
+  text-transform: uppercase;
+  border-color: #dc4f72;
+  transition: 0.3s;
+}
+.btn.clear_button:hover {
+  background-color: #dc4f72;
+  color: white;
+}
+.btn-outline-primary:not(:disabled):not(.disabled).active,
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.show > .btn-outline-primary.dropdown-toggle {
+  background-color: #dc4f72;
+  border-color: #dc4f72;
+  opacity: 0.6;
+}
+.btn-outline-primary.focus,
+.btn-outline-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(220, 79, 114, 0.5);
 }
