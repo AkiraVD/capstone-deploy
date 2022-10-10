@@ -1,3 +1,7 @@
+#about {
+  background-color: #f7f9fc;
+}
+
 #about .about_left p:first-of-type {
   font-size: 16px;
   line-height: 20px;
@@ -41,4 +45,8 @@
   width: 100%;
   height: 100%;
   border-radius: 6px;
+  transition: all 0.5s;
+}
+#about .about_right img:hover {
+  transform: translateY(-20px);
 }
