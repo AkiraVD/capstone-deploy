@@ -42,7 +42,9 @@
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/carousel.css" />
     <link rel="stylesheet" href="./css/why-us.css" />
+    <link rel="stylesheet" href="./css/about.css" />
   </head>
+
   <body>
     <header id="header" class="fixed-top nav-fixed">
       <div class="container">
@@ -61,7 +63,6 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
@@ -188,7 +189,60 @@
     </section>
     <!-- ----------------------------------- -->
 
-    <section id="about"></section>
+    <section id="about">
+      <div class="container py-lg-3 mt-3">
+        <div class="row align-items-center py-5">
+          <div class="col-6 about_left pr-5">
+            <p>ABOUT OUR COMPANY</p>
+            <h2 class="mb-md-4 mb-3">
+              The Best Choice For Your Successful Business!
+            </h2>
+            <p class="mb-md-5 mb-4">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et est
+              repellendus illum harum quam nihil totam reprehenderit! Ut sed
+              eveniet quos! Asperiores officia, repudiandae similique
+              reiciendis, ab est magnam esse nesciunt ea fuga facere voluptatem.
+            </p>
+            <button>READ MORE</button>
+          </div>
+          <div class="col-6 about_right">
+            <img src="./image/about.jpg" alt="" />
+          </div>
+        </div>
+        <div class="row py-3 mb-4">
+          <div class="col-4">
+            <div class="item">
+              <h2>Happy Customers</h2>
+              <p class="counter">10458</p>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
+                atque sed.
+              </p>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="item">
+              <h2>Winning Awards</h2>
+              <p class="counter">890</p>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
+                atque sed.
+              </p>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="item">
+              <h2>Completed Projects</h2>
+              <p class="counter">5345</p>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
+                atque sed.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- ----------------------------------- -->
 
     <section id="parallax"></section>
@@ -223,7 +277,13 @@
       integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
       crossorigin="anonymous"
     ></script>
-
+    <!-- WAYPOINT COUTING UP-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+      integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <!-- Local JS -->
     <!-- Navbar compressed -->
     <script>
@@ -235,6 +295,13 @@
             $(".navbar").removeClass("compressed");
           }
         });
+      });
+    </script>
+    <!-- COUTING UP -->
+    <script src="./Counting-Up-To-Numerical-Values-On-Scroll-jQuery-Countup-js/jquery.countup.js"></script>
+    <script>
+      $(".counter").countUp({
+        time: 3000,
       });
     </script>
   </body>
