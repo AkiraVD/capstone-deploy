@@ -13,11 +13,11 @@
   margin-top: 48px;
   border-radius: 5px;
   transition: 0.5s;
-  border: transparent;
+  border: 1px solid white;
 }
 .whyus__item .item__container:hover {
   transform: translateY(-10px);
   background-color: white;
-  border: 1px solid #eee;
+  border-color: #eee;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.13);
 }
