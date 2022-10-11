@@ -50,3 +50,35 @@
 #about .about_right img:hover {
   transform: translateY(-20px);
 }
+#about .item {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 6px;
+  box-shadow: 1px 5px 7.5px rgba(196, 196, 196, 0.2);
+  transition: 0.3s;
+  border: 1px solid #eee;
+}
+#about .item:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
+}
+
+#about .item h2 {
+  font-size: 16px;
+  line-height: 24.5px;
+  color: #2c3038;
+  font-weight: 700;
+}
+#about .item p.counter {
+  font-size: 50px;
+  line-height: 1;
+  color: #dc4f72;
+  font-weight: 700;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+#about .item p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 300;
+  color: #5a5a5a;
+}
