@@ -1,0 +1,85 @@
+#testimo {
+  background-size: cover;
+  background-image: linear-gradient(
+      to right,
+      rgba(247, 249, 252, 0.77),
+      rgba(247, 249, 252, 0.77)
+    ),
+    url(../image/b2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#testimo .testimo__header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#testimo .testimo__header .text__style3 {
+  max-width: 750px;
+}
+
+#testimo .carousel__container .item {
+  background-color: white;
+  display: flex;
+  border-radius: 5px;
+}
+
+#testimo .carousel__container .item .thumbnail {
+  width: 100px;
+  height: 100px;
+  min-width: 100px;
+  display: inline-block;
+  overflow: hidden;
+  background: #f3f6f9;
+  border-radius: 50%;
+  border: 3px solid #dc4f72;
+}
+#testimo .carousel__container .item .thumbnail img {
+  width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+#testimo .carousel__container .item .content {
+  position: relative;
+  margin-left: 50px;
+}
+#testimo .carousel__container .item .content i {
+  position: absolute;
+  font-size: 36px;
+  color: #d5d6d7;
+  top: -5px;
+  left: -40px;
+}
+#testimo .carousel__container .item .content p {
+  font-weight: 300;
+  font-size: 17px;
+}
+#testimo .carousel__container .item .content h4 {
+  font-size: 17px;
+  color: #dc4f72;
+  font-weight: 300;
+}
+#testimo .carousel__container .item .content h5 {
+  font-size: 14px;
+  font-weight: 300;
+}
+#testimo .carousel__container .owl-theme .owl-dots .owl-dot span {
+  width: 40px;
+  height: 5px;
+  margin: 5px 5px;
+  background: #fff;
+  display: block;
+  border: none;
+  transition: opacity 0.2s ease;
+  border-radius: 0;
+  position: relative;
+}
+#testimo .carousel__container .owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background-color: #dc4f72;
+}

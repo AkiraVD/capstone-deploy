@@ -37,6 +37,15 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- OwlCarousel -->
+    <link
+      rel="stylesheet"
+      href="./OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css"
+    />
     <!-- Local CSS -->
     <link rel="stylesheet" href="./css/general.css" />
     <link rel="stylesheet" href="./css/header.css" />
@@ -44,6 +53,7 @@
     <link rel="stylesheet" href="./css/why-us.css" />
     <link rel="stylesheet" href="./css/about.css" />
     <link rel="stylesheet" href="./css/parallax.css" />
+    <link rel="stylesheet" href="./css/testimo.css" />
   </head>
 
   <body>
@@ -278,7 +288,91 @@
     <section id="feature"></section>
     <!-- ----------------------------------- -->
 
-    <section id="testimo"></section>
+    <section id="testimo" class="py-5">
+      <div class="container py-lg-3">
+        <div class="testimo__header">
+          <h2 class="text__style1">OUR CLIENTS TESTIMONIALS</h2>
+          <h3 class="text__style2">What People Say</h3>
+          <p class="text__style3">
+            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+            posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis
+            sodales quis. Integer sit amet mattis quam.
+          </p>
+        </div>
+        <div class="carousel__container">
+          <div class="owl-carousel owl-theme pt-4">
+            <div class="item p-4">
+              <div class="thumbnail">
+                <img src="./image/team3.jpg" alt="" />
+              </div>
+              <div class="content">
+                <i class="fa fa-quote-left"></i>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolore ad amet inventore corrupti deserunt aliquam facilis
+                  officiis explicabo debitis sint? Lorem ipsum dolor sit, amet
+                  consectetur adipisicing elit. Placeat, recusandae.
+                </p>
+
+                <h4>William James</h4>
+                <h5>Company name</h5>
+              </div>
+            </div>
+            <div class="item p-4">
+              <div class="thumbnail">
+                <img src="./image/team4.jpg" alt="" />
+              </div>
+              <div class="content">
+                <i class="fa fa-quote-left"></i>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolore ad amet inventore corrupti deserunt aliquam facilis
+                  officiis explicabo debitis sint? Lorem ipsum dolor sit, amet
+                  consectetur adipisicing elit. Placeat, recusandae.
+                </p>
+
+                <h4>Benjamin Lucas</h4>
+                <h5>Company name</h5>
+              </div>
+            </div>
+            <div class="item p-4">
+              <div class="thumbnail">
+                <img src="./image/team5.jpg" alt="" />
+              </div>
+              <div class="content">
+                <i class="fa fa-quote-left"></i>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolore ad amet inventore corrupti deserunt aliquam facilis
+                  officiis explicabo debitis sint? Lorem ipsum dolor sit, amet
+                  consectetur adipisicing elit. Placeat, recusandae.
+                </p>
+
+                <h4>Oliver Bradley</h4>
+                <h5>Company name</h5>
+              </div>
+            </div>
+            <div class="item p-4">
+              <div class="thumbnail">
+                <img src="./image/team6.jpg" alt="" />
+              </div>
+              <div class="content">
+                <i class="fa fa-quote-left"></i>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolore ad amet inventore corrupti deserunt aliquam facilis
+                  officiis explicabo debitis sint? Lorem ipsum dolor sit, amet
+                  consectetur adipisicing elit. Placeat, recusandae.
+                </p>
+
+                <h4>Isabella Mia</h4>
+                <h5>Company name</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- ----------------------------------- -->
 
     <section id="ready"></section>
@@ -287,10 +381,10 @@
     <footer></footer>
     <!-- ----------------------------------- -->
 
-    <!-- Bootstrap Bundle JS (Jquery 3.5.1) -->
+    <!-- Bootstrap Bundle JS (Jquery 3.6.1) -->
     <script
-      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
       crossorigin="anonymous"
     ></script>
     <script
@@ -305,6 +399,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <!-- COUTING UP -->
+    <script src="./Counting-Up-To-Numerical-Values-On-Scroll-jQuery-Countup-js/jquery.countup.js"></script>
+    <!-- owl-carousel -->
+    <script src="./OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
     <!-- Local JS -->
     <!-- Navbar compressed -->
     <script>
@@ -318,11 +416,27 @@
         });
       });
     </script>
+
     <!-- COUTING UP -->
-    <script src="./Counting-Up-To-Numerical-Values-On-Scroll-jQuery-Countup-js/jquery.countup.js"></script>
     <script>
       $(".counter").countUp({
         time: 3000,
+      });
+    </script>
+    <!-- Owl-carousel -->
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 30,
+        nav: false,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          1000: {
+            items: 2,
+          },
+        },
       });
     </script>
   </body>
