@@ -1,0 +1,123 @@
+.solution__title {
+  text-align: center;
+  max-width: 750px;
+}
+.solution__title h6 {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #dc4f72;
+  text-transform: uppercase;
+}
+
+.solution__title h3 {
+  font-family: "Nunito", sans-serif;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 1;
+  color: #2c3038;
+}
+.solution__title p {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #5a5a5a;
+}
+.solution__bottom {
+  display: flex;
+  justify-content: center;
+}
+.grids5-info .date {
+  font-size: 17px;
+  color: #fff;
+  font-weight: 700;
+  border-bottom: none;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background: #dc4f72;
+  border-top-right-radius: 5px;
+  font-family: "Nunito", sans-serif;
+}
+
+.grids5-info {
+  border-radius: 5px;
+  z-index: 2;
+  height: 100%;
+  background: #fff;
+  border: 1px solid #eee;
+  transition: 0.5s;
+  position: relative;
+}
+.grids5-info img {
+  border-top-left-radius: 5px 5px;
+  border-top-right-radius: 5px;
+  filter: grayscale(100%);
+}
+.grids5-info:hover {
+  transform: translatey(-10px);
+}
+.grids5-info:hover img {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  filter: none;
+}
+.grids5-info:hover .blog-info span {
+  transform: translateX(5px);
+}
+.grids5-info:hover .texth4 {
+  color: #dc4f72;
+}
+
+.blog-info label {
+  border-radius: 50px;
+  background: rgba(238, 97, 120, 0.2);
+  padding: 5px 16px;
+  color: #dc4f72;
+  font-family: "Nunito", sans-serif;
+}
+.blog-info {
+  padding: 30px 20px;
+  background: white;
+  border: none;
+}
+
+.blog-info .texth4 {
+  font-family: "Nunito", sans-serif;
+  margin-top: 15px;
+  color: black;
+  font-size: 23px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.blog-info p {
+  font-family: "Nunito", sans-serif;
+  font-weight: 350;
+  font-size: 15px;
+  line-height: 24.5px;
+  color: #5a5a5a;
+  margin-top: 15px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.blog-info a {
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+  color: #dc4f72;
+  font-weight: 400;
+  text-decoration: none;
+}
+.blog-info span {
+  font-size: 11px;
+}
+
+.grids5-info .design {
+  background: rgba(0, 128, 0, 0.2);
+  color: #008000;
+}
+.grids5-info .industry {
+  background: rgba(0, 0, 255, 0.2);
+  color: #0000ff;
+}
