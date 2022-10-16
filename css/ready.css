@@ -1,0 +1,14 @@
+#ready .container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#ready .container .text__style3,
+#ready .container .text__style2 {
+  max-width: 750px;
+}
+
+.button__row .btn {
+  margin: 20px 10px;
+}
