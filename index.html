@@ -46,6 +46,11 @@
       rel="stylesheet"
       href="./OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css"
     />
+    <!-- Easy REsponsive Tabs -->
+    <link
+      rel="stylesheet"
+      href="./Easy-Responsive-Tabs-to-Accordion-1.2.2/css/easy-responsive-tabs.css"
+    />
     <!-- Local CSS -->
     <link rel="stylesheet" href="./css/general.css" />
     <link rel="stylesheet" href="./css/header.css" />
@@ -58,6 +63,7 @@
     <link rel="stylesheet" href="./css/solution.css" />
     <link rel="stylesheet" href="./css/faqs.css" />
     <link rel="stylesheet" href="./css/feature.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
   </head>
 
   <body>
@@ -614,41 +620,30 @@
     </section>
     <!-- ----------------------------------- -->
 
-    <section id="feature">
-      <div class="container">
-        <div class="feature_title mx-auto mt-5">
-          <h6 class="feature_title6">FEATURED CASES</h6>
-          <h3 class="feature_title3">Completed Projects</h3>
-          <p class="feature_titlep my-3">
+    <section id="feature" class="py-5 mb-4">
+      <div class="container py-lg-3">
+        <div class="feature__header">
+          <h2 class="text__style1">FEATURED CASES</h2>
+          <h3 class="text__style2">Completed Projects</h3>
+          <p class="text__style3">
             Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
             posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis
             sodales quis. Integer sit amet mattis quam.
           </p>
         </div>
-        <div class="feature_bottom">
-          <!--  -->
-          <div class="tabs">
-            <div class="tab-item active ml-5 mr-5">
-              <h3>Project One</h3>
-            </div>
-            <div class="tab-item ml-5 mr-5">
-              <h3>Project Two</h3>
-            </div>
-            <div class="tab-item ml-5 mr-5">
-              <h3>Project Three</h3>
-            </div>
-            <div class="line"></div>
-          </div>
+        <div class="feature__tabs col-lg-10 mx-auto mt-5" id="responsive-tabs">
+          <ul class="resp-tabs-list">
+            <li>Project One</li>
+            <li>Project Two</li>
+            <li>Project Three</li>
+          </ul>
 
-          <div class="tab-content">
-            <div class="tab-pane active">
-              <div
-                class="products-content resp-tab-content hor_1 resp-tab-content-active"
-                aria-labelledby="hor_1_tab_item-0"
-              >
-                <div class="row">
-                  <div class="col-md-6">
-                    <h3>Why a visual identity system is more memorable</h3>
+          <div class="resp-tabs-container mt-">
+            <div class="tabs-item">
+              <div class="row mt-4">
+                <div class="col-md-6">
+                  <div class="project__content">
+                    <h4>Why a visual identity system is more memorable</h4>
                     <p>
                       Lorem ipsum dolor sit, adipisicing elit repudiandae
                       perferendis dolores praesentium nulla quibusdam
@@ -656,35 +651,27 @@
                       blanditiis, necessitatibus consectetur modi ipsum natus
                       accusantium sit pariatur.
                     </p>
-                    <a href="" class="btn btn-outline-primary theme-button mt-3"
-                      >Know More</a
-                    >
+                    <button class="btn clear_button mt-3">know more</button>
                   </div>
-                  <div class="col-md-6 mt-md-0 mt-5">
-                    <img
-                      src="./image/b4.jpg"
-                      class="img-fluid img-curve"
-                      alt="project image"
-                    />
+                </div>
+                <div class="col-md-6 mt-md-0 mt-5">
+                  <div class="project__image">
+                    <img src="./image/b4.jpg" alt="" class="img-fluid" />
                   </div>
                 </div>
               </div>
             </div>
-            <div class="tab-pane">
-              <div
-                class="products-content resp-tab-content hor_1 resp-tab-content-active"
-                aria-labelledby="hor_1_tab_item-1"
-              >
-                <div class="row">
-                  <div class="col-md-6">
-                    <img
-                      src="./image/b5.jpg"
-                      class="img-fluid img-curve"
-                      alt="project image"
-                    />
+
+            <div class="tabs-item">
+              <div class="row mt-4">
+                <div class="col-md-6 mt-md-0 mt-5">
+                  <div class="project__image">
+                    <img src="./image/b5.jpg" alt="" class="img-fluid" />
                   </div>
-                  <div class="col-md-6 mt-md-0 mt-5">
-                    <h3>Make website that looks Lorem, ipsum dolor.</h3>
+                </div>
+                <div class="col-md-6">
+                  <div class="project__content">
+                    <h4>Make website that looks Lorem, ipsum dolor.</h4>
                     <p>
                       Lorem ipsum dolor sit, adipisicing elit repudiandae
                       perferendis dolores praesentium nulla quibusdam
@@ -692,21 +679,16 @@
                       blanditiis, necessitatibus consectetur modi ipsum natus
                       accusantium sit pariatur.
                     </p>
-                    <a href="" class="btn btn-outline-primary theme-button mt-3"
-                      >Know More</a
-                    >
+                    <button class="btn clear_button mt-3">know more</button>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="tab-pane">
-              <div
-                class="products-content resp-tab-content hor_1 resp-tab-content-active"
-                aria-labelledby="hor_1_tab_item-2"
-              >
-                <div class="row">
-                  <div class="col-md-6">
-                    <h3>Why a visual identity system is more memorable</h3>
+            <div class="tabs-item">
+              <div class="row mt-4">
+                <div class="col-md-6">
+                  <div class="project__content">
+                    <h4>Why a visual identity system is more memorable</h4>
                     <p>
                       Lorem ipsum dolor sit, adipisicing elit repudiandae
                       perferendis dolores praesentium nulla quibusdam
@@ -714,16 +696,12 @@
                       blanditiis, necessitatibus consectetur modi ipsum natus
                       accusantium sit pariatur.
                     </p>
-                    <a href="" class="btn btn-outline-primary theme-button mt-3"
-                      >Know More</a
-                    >
+                    <button class="btn clear_button mt-3">know more</button>
                   </div>
-                  <div class="col-md-6 mt-md-0 mt-5">
-                    <img
-                      src="./image/b6.jpg"
-                      class="img-fluid img-curve"
-                      alt="project image"
-                    />
+                </div>
+                <div class="col-md-6 mt-md-0 mt-5">
+                  <div class="project__image">
+                    <img src="./image/b6.jpg" alt="" class="img-fluid" />
                   </div>
                 </div>
               </div>
@@ -837,7 +815,106 @@
     </section>
     <!-- ----------------------------------- -->
 
-    <footer></footer>
+    <footer>
+      <div class="w3l-footer-16-main py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 column">
+              <div class="row">
+                <div class="col-md-4 column">
+                  <h3>Company</h3>
+                  <ul class="footer-gd-16 mt-4">
+                    <li class="mb-2"><a href="index.html">Home</a></li>
+                    <li class="mb-2"><a href="about.html">About Us</a></li>
+                    <li class="mb-2"><a href="services.html">Services</a></li>
+                    <li class="mb-2"><a href="blog.html">Blog</a></li>
+                    <li class="mb-2"><a href="contact.html">Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-4 column mt-md-0 mt-4">
+                  <h3>Useful Links</h3>
+                  <ul class="footer-gd-16 mt-4">
+                    <li class="mb-2"><a href="#url">Case Studies</a></li>
+                    <li class="mb-2"><a href="#url">Our Branches</a></li>
+                    <li class="mb-2"><a href="#url">Latest Media</a></li>
+                    <li class="mb-2"><a href="about.html">About Company</a></li>
+                    <li class="mb-2"><a href="#url">Our People</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-4 column mt-md-0 mt-4">
+                  <h3>Our Services</h3>
+                  <ul class="footer-gd-16 mt-4">
+                    <li class="mb-2"><a href="#url">Privacy Policy</a></li>
+                    <li class="mb-2"><a href="#url">Our Terms</a></li>
+                    <li class="mb-2"><a href="services.html">Services</a></li>
+                    <li class="mb-2">
+                      <a href="landing-single.html">Landing Page</a>
+                    </li>
+                    <li class="mb-3"><a href="#url">Our People</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12 column pl-lg-5 column4 mt-lg-0 mt-5">
+              <h3 class="mb-4">Newsletter</h3>
+              <div class="end-column pt-4 pl-4 pr-4 pb-3 footer_new">
+                <h4 class="mb-4">Get latest updates and offers.</h4>
+                <form action="#" class="subscribe" method="post">
+                  <input
+                    class="pl-3 pt-3 pb-3 mb-4"
+                    type="email"
+                    name="email"
+                    placeholder="Email Address"
+                    required=""
+                  />
+                  <button class="pl-5 pr-5 pt-3 pb-3 ml-2" type="submit">
+                    Go
+                  </button>
+                </form>
+                <p>
+                  Sign up for our latest news &amp; articles. We won’t give you
+                  spam mails.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="d-flex below-section justify-content-between align-items-center pt-4 mt-5 footer_top"
+          >
+            <div class="columns text-lg-left text-center text_left">
+              <p>
+                © 2020 Masterwork. All rights reserved | Designed by
+                <a href="https://w3layouts.com/">W3Layouts</a>
+              </p>
+            </div>
+            <div class="footer_icon m-2">
+              <a class="mr-3" href="#facebook"
+                ><span aria-hidden="true"
+                  ><i class="fab fa-facebook-f"></i></span
+              ></a>
+
+              <a class="mr-3" href="#linkedin"
+                ><span aria-hidden="true"
+                  ><i class="fab fa-linkedin-in"></i></span
+              ></a>
+
+              <a class="mr-3" href="#twitter"
+                ><span aria-hidden="true"><i class="fab fa-twitter"></i></span
+              ></a>
+
+              <a class="mr-3" href="#google"
+                ><span aria-hidden="true"
+                  ><i class="fab fa-google-plus-g"></i></span
+              ></a>
+
+              <a class="mr-3" href="#github"
+                ><span aria-hidden="true"><i class="fab fa-github"></i></span
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- ----------------------------------- -->
 
     <!-- Bootstrap Bundle JS (Jquery 3.6.1) -->
@@ -862,6 +939,9 @@
     <script src="./Counting-Up-To-Numerical-Values-On-Scroll-jQuery-Countup-js/jquery.countup.js"></script>
     <!-- owl-carousel -->
     <script src="./OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <!-- Easy Responsive tabs -->
+    <script src="./Easy-Responsive-Tabs-to-Accordion-1.2.2/js/easyResponsiveTabs.js"></script>
+
     <!-- Local JS -->
     <!-- Navbar compressed -->
     <script>
@@ -882,39 +962,6 @@
         time: 3000,
       });
     </script>
-    <!-- tab feature -->
-    <!-- <script>
-      const $ = document.querySelector.bind(document);
-      const $$ = document.querySelectorAll.bind(document);
-
-      const tabs = $$(".tab-item");
-      const panes = $$(".tab-pane");
-
-      const tabActive = $(".tab-item.active");
-      const line = $(".tabs .line");
-
-      // SonDN fixed - Active size wrong size on first load.
-      // Original post: https://www.facebook.com/groups/649972919142215/?multi_permalinks=1175881616551340
-      var requestIdleCallback = function () {
-        line.style.left = tabActive.offsetLeft + "px";
-        line.style.width = tabActive.offsetWidth + "px";
-      };
-
-      tabs.forEach((tab, index) => {
-        const pane = panes[index];
-
-        tab.onclick = function () {
-          $(".tab-item.active").classList.remove("active");
-          $(".tab-pane.active").classList.remove("active");
-
-          line.style.left = this.offsetLeft + "px";
-          line.style.width = this.offsetWidth + "px";
-
-          this.classList.add("active");
-          pane.classList.add("active");
-        };
-      });
-    </script> -->
     <!-- Owl-carousel -->
     <script>
       $(".owl-carousel").owlCarousel({
@@ -930,6 +977,10 @@
           },
         },
       });
+    </script>
+    <!-- Easy Responsive Tabs -->
+    <script>
+      $("#responsive-tabs").easyResponsiveTabs();
     </script>
   </body>
 </html>
