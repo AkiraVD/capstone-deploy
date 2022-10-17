@@ -37,6 +37,15 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- OwlCarousel -->
+    <link
+      rel="stylesheet"
+      href="./OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css"
+    />
     <!-- Local CSS -->
     <link rel="stylesheet" href="./css/general.css" />
     <link rel="stylesheet" href="./css/header.css" />
@@ -44,9 +53,11 @@
     <link rel="stylesheet" href="./css/why-us.css" />
     <link rel="stylesheet" href="./css/about.css" />
     <link rel="stylesheet" href="./css/parallax.css" />
+    <link rel="stylesheet" href="./css/testimo.css" />
+    <link rel="stylesheet" href="./css/ready.css" />
     <link rel="stylesheet" href="./css/solution.css" />
-    <link rel="stylesheet" href="./css/faqs.css">
-    <link rel="stylesheet" href="./css/feature.css">
+    <link rel="stylesheet" href="./css/faqs.css" />
+    <link rel="stylesheet" href="./css/feature.css" />
   </head>
 
   <body>
@@ -373,14 +384,16 @@
           <h6 class="faqs_title6">QUESTIONS AND ANSWERS</h6>
           <h3 class="faqs_title3">General FAQs</h3>
           <p class="faqs_titlep my-3">
-            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.
+            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+            posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis
+            sodales quis. Integer sit amet mattis quam.
           </p>
         </div>
 
         <div class="faqs_bottom mt-5">
           <div class="faqs_left col-md-5 mt-5">
             <div class="faqs_img">
-              <img src="./image/women.jpg" alt="">
+              <img src="./image/women.jpg" alt="" />
             </div>
           </div>
           <div class="faqs_right col-md-7 mt-5 pl-lg-5">
@@ -389,111 +402,214 @@
                 <div class="card">
                   <div class="card-header" id="headingOne">
                     <h2 class="mb-0">
-                      <button class="btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <button
+                        class="btn"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
                         There are many passages but the majority?
                       </button>
                       <i class="fa fa-angle-down"></i>
                     </h2>
                   </div>
-              
-                  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+
+                  <div
+                    id="collapseOne"
+                    class="collapse"
+                    aria-labelledby="headingOne"
+                    data-parent="#accordionExample"
+                  >
                     <div class="card-body">
-                    <p>Voluptates amet earum velit nobis aliquam
-                      laboriosam nihil debitis facere voluptatibus consectetur quae quasi fuga, ad corrupti libero omnis sapiente
-                      non assumenda, incidunt officiis eaque iste minima autem.</p>
+                      <p>
+                        Voluptates amet earum velit nobis aliquam laboriosam
+                        nihil debitis facere voluptatibus consectetur quae quasi
+                        fuga, ad corrupti libero omnis sapiente non assumenda,
+                        incidunt officiis eaque iste minima autem.
+                      </p>
                     </div>
                   </div>
                 </div>
                 <div class="card">
                   <div class="card-header" id="heading2">
                     <h2 class="mb-0">
-                      <button class="btn" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                      <button
+                        class="btn"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapse2"
+                        aria-expanded="true"
+                        aria-controls="collapse2"
+                      >
                         Sed ut perspiciatis unde omnis?
                       </button>
                       <i class="fa fa-angle-down"></i>
                     </h2>
-                  
                   </div>
-              
-                  <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordionExample">
+
+                  <div
+                    id="collapse2"
+                    class="collapse"
+                    aria-labelledby="heading2"
+                    data-parent="#accordionExample"
+                  >
                     <div class="card-body">
-                    <p>Sit amet consectetur adipisicing elit. Voluptates amet earum velit nobis aliquam
-                      laboriosam nihil debitis animi vitae eos nisi laudantium. Tempore reiciendis ipsam culpa, qui
-                      voluptates eveniet, incidunt officiis eaque iste minima autem.</p>
+                      <p>
+                        Sit amet consectetur adipisicing elit. Voluptates amet
+                        earum velit nobis aliquam laboriosam nihil debitis animi
+                        vitae eos nisi laudantium. Tempore reiciendis ipsam
+                        culpa, qui voluptates eveniet, incidunt officiis eaque
+                        iste minima autem.
+                      </p>
                     </div>
                   </div>
                 </div>
                 <div class="card">
                   <div class="card-header" id="heading3">
                     <h2 class="mb-0">
-                      <button class="btn" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                      <button
+                        class="btn"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapse3"
+                        aria-expanded="true"
+                        aria-controls="collapse3"
+                      >
                         At vero eos iusto odio ducimus qui?
-                      </button>  <i class="fa fa-angle-down"></i>
+                      </button>
+                      <i class="fa fa-angle-down"></i>
                     </h2>
                   </div>
-              
-                  <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionExample">
+
+                  <div
+                    id="collapse3"
+                    class="collapse"
+                    aria-labelledby="heading3"
+                    data-parent="#accordionExample"
+                  >
                     <div class="card-body">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates amet earum velit nobis aliquam
-                      laboriosam nihil quasi fuga, ad corrupti libero omnis sapiente
-                      non assumenda excepturi aperiam animi vitae eos nisi laudantium. Tempore reiciendis ipsam culpa, qui
-                      voluptates eveniet, incidunt officiis eaque iste minima autem.</p>
+                      <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Voluptates amet earum velit nobis aliquam
+                        laboriosam nihil quasi fuga, ad corrupti libero omnis
+                        sapiente non assumenda excepturi aperiam animi vitae eos
+                        nisi laudantium. Tempore reiciendis ipsam culpa, qui
+                        voluptates eveniet, incidunt officiis eaque iste minima
+                        autem.
+                      </p>
                     </div>
                   </div>
                 </div>
                 <div class="card">
                   <div class="card-header" id="heading4">
                     <h2 class="mb-0">
-                      <button class="btn" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
+                      <button
+                        class="btn"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapse4"
+                        aria-expanded="true"
+                        aria-controls="collapse4"
+                      >
                         We denounce with righteous?
-                      </button>  <i class="fa fa-angle-down"></i>
+                      </button>
+                      <i class="fa fa-angle-down"></i>
                     </h2>
                   </div>
-              
-                  <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionExample">
+
+                  <div
+                    id="collapse4"
+                    class="collapse"
+                    aria-labelledby="heading4"
+                    data-parent="#accordionExample"
+                  >
                     <div class="card-body">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates amet earum velit nobis aliquam
-                      laboriosam nihil debitis facere voluptatibus consectetur quae quasi fuga, ad corrupti libero omnis sapiente
-                      non assumenda excepturi aperiam iste minima autem.</p>
+                      <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Voluptates amet earum velit nobis aliquam
+                        laboriosam nihil debitis facere voluptatibus consectetur
+                        quae quasi fuga, ad corrupti libero omnis sapiente non
+                        assumenda excepturi aperiam iste minima autem.
+                      </p>
                     </div>
                   </div>
                 </div>
                 <div class="card">
                   <div class="card-header" id="heading5">
                     <h2 class="mb-0">
-                      <button class="btn" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
+                      <button
+                        class="btn"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapse5"
+                        aria-expanded="true"
+                        aria-controls="collapse5"
+                      >
                         perspiciatis unde omnis?
-                      </button>  <i class="fa fa-angle-down"></i>
+                      </button>
+                      <i class="fa fa-angle-down"></i>
                     </h2>
                   </div>
-              
-                  <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordionExample">
+
+                  <div
+                    id="collapse5"
+                    class="collapse"
+                    aria-labelledby="heading5"
+                    data-parent="#accordionExample"
+                  >
                     <div class="card-body">
-                    <p>Sit amet consectetur adipisicing elit. Voluptates amet earum velit nobis aliquam
-                      laboriosam nihil debitis animi vitae eos nisi laudantium. Tempore reiciendis ipsam culpa, qui
-                      voluptates eveniet, incidunt officiis eaque iste minima autem.</</p>
+                      <p>
+                        Sit amet consectetur adipisicing elit. Voluptates amet
+                        earum velit nobis aliquam laboriosam nihil debitis animi
+                        vitae eos nisi laudantium. Tempore reiciendis ipsam
+                        culpa, qui voluptates eveniet, incidunt officiis eaque
+                        iste minima autem.
+                      </p>
                     </div>
                   </div>
                 </div>
                 <div class="card">
                   <div class="card-header" id="heading6">
                     <h2 class="mb-0">
-                      <button class="btn" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="true" aria-controls="collapse6">
+                      <button
+                        class="btn"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapse6"
+                        aria-expanded="true"
+                        aria-controls="collapse6"
+                      >
                         At vero eos iusto odio ducimus qui?
-                      </button>  <i class="fa fa-angle-down"></i>
+                      </button>
+                      <i class="fa fa-angle-down"></i>
                     </h2>
                   </div>
-              
-                  <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordionExample">
+
+                  <div
+                    id="collapse6"
+                    class="collapse"
+                    aria-labelledby="heading6"
+                    data-parent="#accordionExample"
+                  >
                     <div class="card-body">
-                    <p>
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates amet earum velit nobis aliquam laboriosam nihil quasi fuga, ad corrupti libero omnis sapiente non assumenda excepturi aperiam animi vitae eos nisi laudantium. Tempore reiciendis ipsam culpa, qui voluptates eveniet, incidunt officiis eaque iste minima autem.</p>
+                      <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Voluptates amet earum velit nobis aliquam
+                        laboriosam nihil quasi fuga, ad corrupti libero omnis
+                        sapiente non assumenda excepturi aperiam animi vitae eos
+                        nisi laudantium. Tempore reiciendis ipsam culpa, qui
+                        voluptates eveniet, incidunt officiis eaque iste minima
+                        autem.
+                      </p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+        </div>
       </div>
     </section>
     <!-- ----------------------------------- -->
@@ -504,98 +620,230 @@
           <h6 class="feature_title6">FEATURED CASES</h6>
           <h3 class="feature_title3">Completed Projects</h3>
           <p class="feature_titlep my-3">
-            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.
+            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+            posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis
+            sodales quis. Integer sit amet mattis quam.
           </p>
         </div>
         <div class="feature_bottom">
           <!--  -->
-          <div class="tabs ">
+          <div class="tabs">
             <div class="tab-item active ml-5 mr-5">
-             <h3>Project One</h3>
+              <h3>Project One</h3>
             </div>
             <div class="tab-item ml-5 mr-5">
-             <h3>Project Two</h3>
+              <h3>Project Two</h3>
             </div>
             <div class="tab-item ml-5 mr-5">
-             <h3>Project Three
-
-             </h3>
+              <h3>Project Three</h3>
             </div>
             <div class="line"></div>
           </div>
-        
-         
+
           <div class="tab-content">
             <div class="tab-pane active">
-              <div class="products-content resp-tab-content hor_1 resp-tab-content-active" aria-labelledby="hor_1_tab_item-0">
+              <div
+                class="products-content resp-tab-content hor_1 resp-tab-content-active"
+                aria-labelledby="hor_1_tab_item-0"
+              >
                 <div class="row">
                   <div class="col-md-6">
                     <h3>Why a visual identity system is more memorable</h3>
                     <p>
-                      Lorem ipsum dolor sit, adipisicing elit repudiandae perferendis dolores praesentium nulla quibusdam repellendus. consequatur minus
-                      aliquam corrupti blanditiis, necessitatibus consectetur modi ipsum natus accusantium sit pariatur.
+                      Lorem ipsum dolor sit, adipisicing elit repudiandae
+                      perferendis dolores praesentium nulla quibusdam
+                      repellendus. consequatur minus aliquam corrupti
+                      blanditiis, necessitatibus consectetur modi ipsum natus
+                      accusantium sit pariatur.
                     </p>
-                    <a href="" class="btn btn-outline-primary theme-button mt-3">Know More</a>
+                    <a href="" class="btn btn-outline-primary theme-button mt-3"
+                      >Know More</a
+                    >
                   </div>
                   <div class="col-md-6 mt-md-0 mt-5">
-                    <img src="./image/b4.jpg" class="img-fluid img-curve" alt="project image">
+                    <img
+                      src="./image/b4.jpg"
+                      class="img-fluid img-curve"
+                      alt="project image"
+                    />
                   </div>
                 </div>
               </div>
             </div>
             <div class="tab-pane">
-              <div class="products-content resp-tab-content hor_1 resp-tab-content-active" aria-labelledby="hor_1_tab_item-1">
+              <div
+                class="products-content resp-tab-content hor_1 resp-tab-content-active"
+                aria-labelledby="hor_1_tab_item-1"
+              >
                 <div class="row">
                   <div class="col-md-6">
-                    <img src="./image/b5.jpg" class="img-fluid img-curve" alt="project image">
+                    <img
+                      src="./image/b5.jpg"
+                      class="img-fluid img-curve"
+                      alt="project image"
+                    />
                   </div>
                   <div class="col-md-6 mt-md-0 mt-5">
                     <h3>Make website that looks Lorem, ipsum dolor.</h3>
                     <p>
-                      Lorem ipsum dolor sit, adipisicing elit repudiandae perferendis dolores praesentium nulla quibusdam repellendus. consequatur minus
-                      aliquam corrupti blanditiis, necessitatibus consectetur modi ipsum natus accusantium sit pariatur.
+                      Lorem ipsum dolor sit, adipisicing elit repudiandae
+                      perferendis dolores praesentium nulla quibusdam
+                      repellendus. consequatur minus aliquam corrupti
+                      blanditiis, necessitatibus consectetur modi ipsum natus
+                      accusantium sit pariatur.
                     </p>
-                    <a href="" class="btn btn-outline-primary theme-button mt-3">Know More</a>
+                    <a href="" class="btn btn-outline-primary theme-button mt-3"
+                      >Know More</a
+                    >
                   </div>
                 </div>
               </div>
             </div>
             <div class="tab-pane">
-              <div class="products-content resp-tab-content hor_1 resp-tab-content-active" aria-labelledby="hor_1_tab_item-2">
+              <div
+                class="products-content resp-tab-content hor_1 resp-tab-content-active"
+                aria-labelledby="hor_1_tab_item-2"
+              >
                 <div class="row">
                   <div class="col-md-6">
                     <h3>Why a visual identity system is more memorable</h3>
                     <p>
-                      Lorem ipsum dolor sit, adipisicing elit repudiandae perferendis dolores praesentium nulla quibusdam repellendus. consequatur minus
-                      aliquam corrupti blanditiis, necessitatibus consectetur modi ipsum natus accusantium sit pariatur.
+                      Lorem ipsum dolor sit, adipisicing elit repudiandae
+                      perferendis dolores praesentium nulla quibusdam
+                      repellendus. consequatur minus aliquam corrupti
+                      blanditiis, necessitatibus consectetur modi ipsum natus
+                      accusantium sit pariatur.
                     </p>
-                    <a href="" class="btn btn-outline-primary theme-button mt-3">Know More</a>
+                    <a href="" class="btn btn-outline-primary theme-button mt-3"
+                      >Know More</a
+                    >
                   </div>
                   <div class="col-md-6 mt-md-0 mt-5">
-                    <img src="./image/b6.jpg" class="img-fluid img-curve" alt="project image">
+                    <img
+                      src="./image/b6.jpg"
+                      class="img-fluid img-curve"
+                      alt="project image"
+                    />
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        
+        </div>
       </div>
     </section>
     <!-- ----------------------------------- -->
 
-    <section id="testimo"></section>
+    <section id="testimo" class="py-5">
+      <div class="container py-lg-3">
+        <div class="testimo__header">
+          <h2 class="text__style1">OUR CLIENTS TESTIMONIALS</h2>
+          <h3 class="text__style2">What People Say</h3>
+          <p class="text__style3 pt-2">
+            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+            posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis
+            sodales quis. Integer sit amet mattis quam.
+          </p>
+        </div>
+        <div class="carousel__container">
+          <div class="owl-carousel owl-theme pt-4">
+            <div class="item p-4">
+              <div class="thumbnail">
+                <img src="./image/team3.jpg" alt="" />
+              </div>
+              <div class="content">
+                <i class="fa fa-quote-left"></i>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolore ad amet inventore corrupti deserunt aliquam facilis
+                  officiis explicabo debitis sint? Lorem ipsum dolor sit, amet
+                  consectetur adipisicing elit. Placeat, recusandae.
+                </p>
+
+                <h4>William James</h4>
+                <h5>Company name</h5>
+              </div>
+            </div>
+            <div class="item p-4">
+              <div class="thumbnail">
+                <img src="./image/team4.jpg" alt="" />
+              </div>
+              <div class="content">
+                <i class="fa fa-quote-left"></i>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolore ad amet inventore corrupti deserunt aliquam facilis
+                  officiis explicabo debitis sint? Lorem ipsum dolor sit, amet
+                  consectetur adipisicing elit. Placeat, recusandae.
+                </p>
+
+                <h4>Benjamin Lucas</h4>
+                <h5>Company name</h5>
+              </div>
+            </div>
+            <div class="item p-4">
+              <div class="thumbnail">
+                <img src="./image/team5.jpg" alt="" />
+              </div>
+              <div class="content">
+                <i class="fa fa-quote-left"></i>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolore ad amet inventore corrupti deserunt aliquam facilis
+                  officiis explicabo debitis sint? Lorem ipsum dolor sit, amet
+                  consectetur adipisicing elit. Placeat, recusandae.
+                </p>
+
+                <h4>Oliver Bradley</h4>
+                <h5>Company name</h5>
+              </div>
+            </div>
+            <div class="item p-4">
+              <div class="thumbnail">
+                <img src="./image/team6.jpg" alt="" />
+              </div>
+              <div class="content">
+                <i class="fa fa-quote-left"></i>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolore ad amet inventore corrupti deserunt aliquam facilis
+                  officiis explicabo debitis sint? Lorem ipsum dolor sit, amet
+                  consectetur adipisicing elit. Placeat, recusandae.
+                </p>
+
+                <h4>Isabella Mia</h4>
+                <h5>Company name</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- ----------------------------------- -->
 
-    <section id="ready"></section>
+    <section id="ready" class="py-5">
+      <div class="container py-3">
+        <h3 class="text__style2">Ready to build your own brand community?</h3>
+        <p class="text__style3 py-2">
+          Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+          posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis
+          sodales quis. Integer sit amet mattis quam.
+        </p>
+        <div class="button__row">
+          <button class="btn clear_button">book a demo</button>
+          <button class="btn button_normal">get started</button>
+        </div>
+      </div>
+    </section>
     <!-- ----------------------------------- -->
 
     <footer></footer>
     <!-- ----------------------------------- -->
 
-    <!-- Bootstrap Bundle JS (Jquery 3.5.1) -->
+    <!-- Bootstrap Bundle JS (Jquery 3.6.1) -->
     <script
-      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
       crossorigin="anonymous"
     ></script>
     <script
@@ -610,6 +858,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <!-- COUTING UP -->
+    <script src="./Counting-Up-To-Numerical-Values-On-Scroll-jQuery-Countup-js/jquery.countup.js"></script>
+    <!-- owl-carousel -->
+    <script src="./OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
     <!-- Local JS -->
     <!-- Navbar compressed -->
     <script>
@@ -623,8 +875,8 @@
         });
       });
     </script>
+
     <!-- COUTING UP -->
-    <script src="./Counting-Up-To-Numerical-Values-On-Scroll-jQuery-Countup-js/jquery.countup.js"></script>
     <script>
       $(".counter").countUp({
         time: 3000,
@@ -632,37 +884,52 @@
     </script>
     <!-- tab feature -->
     <script>
-     const $ = document.querySelector.bind(document);
-const $$ = document.querySelectorAll.bind(document);
+      const $ = document.querySelector.bind(document);
+      const $$ = document.querySelectorAll.bind(document);
 
-const tabs = $$(".tab-item");
-const panes = $$(".tab-pane");
+      const tabs = $$(".tab-item");
+      const panes = $$(".tab-pane");
 
-const tabActive = $(".tab-item.active");
-const line = $(".tabs .line");
+      const tabActive = $(".tab-item.active");
+      const line = $(".tabs .line");
 
-// SonDN fixed - Active size wrong size on first load.
-// Original post: https://www.facebook.com/groups/649972919142215/?multi_permalinks=1175881616551340
-requestIdleCallback(function () {
-  line.style.left = tabActive.offsetLeft + "px";
-  line.style.width = tabActive.offsetWidth + "px";
-});
+      // SonDN fixed - Active size wrong size on first load.
+      // Original post: https://www.facebook.com/groups/649972919142215/?multi_permalinks=1175881616551340
+      var requestIdleCallback = function () {
+        line.style.left = tabActive.offsetLeft + "px";
+        line.style.width = tabActive.offsetWidth + "px";
+      };
 
-tabs.forEach((tab, index) => {
-  const pane = panes[index];
+      tabs.forEach((tab, index) => {
+        const pane = panes[index];
 
-  tab.onclick = function () {
-    $(".tab-item.active").classList.remove("active");
-    $(".tab-pane.active").classList.remove("active");
+        tab.onclick = function () {
+          $(".tab-item.active").classList.remove("active");
+          $(".tab-pane.active").classList.remove("active");
 
-    line.style.left = this.offsetLeft + "px";
-    line.style.width = this.offsetWidth + "px";
+          line.style.left = this.offsetLeft + "px";
+          line.style.width = this.offsetWidth + "px";
 
-    this.classList.add("active");
-    pane.classList.add("active");
-  };
-});
-
-      </script>
+          this.classList.add("active");
+          pane.classList.add("active");
+        };
+      });
+    </script>
+    <!-- Owl-carousel -->
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 30,
+        nav: false,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          1000: {
+            items: 2,
+          },
+        },
+      });
+    </script>
   </body>
 </html>
