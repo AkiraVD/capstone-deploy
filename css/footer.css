@@ -67,3 +67,18 @@ footer .footer_icon a {
 .text_left p a:hover {
   color: #dc4f72;
 }
+
+/* back to top button */
+#back-to-top {
+  bottom: 20px;
+  right: 20px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgba(220, 79, 114, 0.548);
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+}

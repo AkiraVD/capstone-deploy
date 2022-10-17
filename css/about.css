@@ -1,19 +1,8 @@
 #about {
   background-color: #f7f9fc;
 }
-
-#about .about_left p:first-of-type {
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 700;
-  color: #dc5073;
-  margin-bottom: 5px;
-}
-#about .about_left h2 {
+#about .about_left .text__style2 {
   font-size: 35px;
-  line-height: 40px;
-  color: #2c3038;
-  font-weight: 700;
 }
 #about .about_left p:last-of-type {
   font-weight: 300;

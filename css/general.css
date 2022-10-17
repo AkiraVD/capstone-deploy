@@ -10,10 +10,13 @@ img {
 }
 body {
   padding-top: 80px;
-  height: 5000px;
   background-color: white;
 }
-
+html,
+body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
 /* button style */
 .btn.clear_button {
   line-height: 52px;

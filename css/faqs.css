@@ -67,6 +67,8 @@
   color: #5a5a5a;
   border: none;
 }
+
+.collapsing p,
 .collapse p {
   margin-left: 10px;
   font-family: "Nunito", sans-serif;
